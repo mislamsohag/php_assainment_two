@@ -23,7 +23,6 @@ for($i=0; $i<=$fiboNumber; $i++){
     if($fiboResult>100){
         break;
     }else{
-        echo $fiboResult ," ";
-    }
-    
+        echo $fiboResult," ";
+    }    
 }
