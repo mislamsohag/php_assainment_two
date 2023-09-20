@@ -17,6 +17,7 @@ function fibonacci($number){
 }
 
 $fiboNumber=15;
+
 for($i=1; $i<=$fiboNumber; $i++){
     
     $fiboResult=fibonacci($i);    
