@@ -16,8 +16,8 @@ function fibonacci($number){
     }
 }
 
-$fiboNumber=12;
-for($i=0; $i<=$fiboNumber; $i++){
+$fiboNumber=11;
+for($i=2; $i<=$fiboNumber; $i++){
     
     $fiboResult=fibonacci($i);
     if($fiboResult>100){
