@@ -1,4 +1,5 @@
 
+
 <?php
 /*
 Task 4: Fibonacci Series printing using a Function
@@ -17,8 +18,7 @@ function fibonacci($number){
 }
 
 $fiboNumber=15;
-
-for($i=2; $i<=$fiboNumber; $i++){
+for($i=0; $i < $fiboNumber; $i++){
     
     $fiboResult=fibonacci($i);    
     echo $fiboResult," ";    
